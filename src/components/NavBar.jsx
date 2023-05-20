@@ -7,6 +7,7 @@ import {FaUsers} from 'react-icons/fa'
 //import Links
 import { Link } from 'react-router-dom'
 import './navbar.css';
+import Logo from './Logo';
 
 const NavBar = () => {
   return (
