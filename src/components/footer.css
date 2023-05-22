@@ -17,13 +17,13 @@
     font-weight: bold;
   }
   
-  .footer-links a {
+  .footer-links .link {
     color: purple;
     margin-right: 10px;
     text-decoration: none;
   }
   
-  .footer-links a:hover {
+  .footer-links .link:hover {
     text-decoration: underline;
   }
   
@@ -52,7 +52,7 @@
       
     }
     
-    .footer-links a {
+    .footer-links .link {
       display: block;
       margin-bottom: 5px;
     }

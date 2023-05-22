@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 const Footer = () => {
@@ -27,11 +28,11 @@ const Footer = () => {
             Poetry App
           </div>
           <div className="footer-links">
-            <a href="/">Home</a>
-            <a href="/poems">Poems</a>
-            <a href="/authors">Authors</a>
-            <a href="/categories">Categories</a>
-            <a href="/about">About</a>
+            <Link to='/'>Home</Link>
+            <Link to='/poems'>Poems</Link>
+            <Link to='/authors'>Authors</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/categories'>Categories</Link>
           </div>
         </div>
         <div className="footer-bottom">
