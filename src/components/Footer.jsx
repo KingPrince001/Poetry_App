@@ -28,11 +28,11 @@ const Footer = () => {
             Poetry App
           </div>
           <div className="footer-links">
-            <Link to='/'>Home</Link>
-            <Link to='/poems'>Poems</Link>
-            <Link to='/authors'>Authors</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/categories'>Categories</Link>
+            <Link to='/' className='link'>Home</Link>
+            <Link to='/poems' className='link'>Poems</Link>
+            <Link to='/authors' className='link'>Authors</Link>
+            <Link to='/about' className='link'>About</Link>
+            <Link to='/categories' className='link'>Categories</Link>
           </div>
         </div>
         <div className="footer-bottom">
